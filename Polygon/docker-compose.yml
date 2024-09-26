@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./PolygonApp  # Путь к каталогу с Dockerfile для ASP.NET Core
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"  # Прокси-порт для доступа к бэкенду
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+
+  frontend:
+    build:
+      context: ./polygon-app  # Путь к каталогу с Dockerfile для Angular
+      dockerfile: Dockerfile
+    ports:
+      - "4200:80"  # Прокси-порт для доступа к фронтенду
+
+networks:
+  default:
+    driver: bridge
