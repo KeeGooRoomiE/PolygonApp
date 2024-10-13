@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PolygonApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2ea5f99af0578feed30f325671a665abf68c1c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PolygonApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PolygonApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

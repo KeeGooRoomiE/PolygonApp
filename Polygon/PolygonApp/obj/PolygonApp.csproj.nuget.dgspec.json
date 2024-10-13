@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/xandergusarov/PolygonApp/PolygonApp.csproj": {}
+    "/Users/xandergusarov/Documents/GitHub/PolygonApp/PolygonApp/Polygon/PolygonApp/PolygonApp.csproj": {}
   },
   "projects": {
-    "/Users/xandergusarov/PolygonApp/PolygonApp.csproj": {
+    "/Users/xandergusarov/Documents/GitHub/PolygonApp/PolygonApp/Polygon/PolygonApp/PolygonApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/xandergusarov/PolygonApp/PolygonApp.csproj",
+        "projectUniqueName": "/Users/xandergusarov/Documents/GitHub/PolygonApp/PolygonApp/Polygon/PolygonApp/PolygonApp.csproj",
         "projectName": "PolygonApp",
-        "projectPath": "/Users/xandergusarov/PolygonApp/PolygonApp.csproj",
+        "projectPath": "/Users/xandergusarov/Documents/GitHub/PolygonApp/PolygonApp/Polygon/PolygonApp/PolygonApp.csproj",
         "packagesPath": "/Users/xandergusarov/.nuget/packages/",
-        "outputPath": "/Users/xandergusarov/PolygonApp/obj/",
+        "outputPath": "/Users/xandergusarov/Documents/GitHub/PolygonApp/PolygonApp/Polygon/PolygonApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/xandergusarov/.nuget/NuGet/NuGet.Config"

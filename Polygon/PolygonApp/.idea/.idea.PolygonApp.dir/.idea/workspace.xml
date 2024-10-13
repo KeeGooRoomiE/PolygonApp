@@ -8,16 +8,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b9fe31f-e77f-4757-a8b0-57736a90b2c1" name="Changes" comment="" />
+    <list default="true" id="4b9fe31f-e77f-4757-a8b0-57736a90b2c1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PolygonApp.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PolygonApp.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/PolygonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/PolygonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/PolygonContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/PolygonContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Polygon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Polygon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/CheckPointRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/PolygonService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/PolygonService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/PolygonApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/PolygonApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/PolygonApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/PolygonApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/PolygonApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/PolygonApp.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/PolygonApp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/PolygonApp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/PolygonApp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/PolygonApp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/PolygonApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/PolygonApp.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/PolygonApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/PolygonApp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/PolygonApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/PolygonApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/PolygonApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/PolygonApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/PolygonApp.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/PolygonApp.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/PolygonApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/PolygonApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/ref/PolygonApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/ref/PolygonApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/refint/PolygonApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/refint/PolygonApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/PolygonApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/PolygonApp.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2mZUTnhdvaNWk2eGJOdMJguxy3e" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,6 +58,7 @@
     ".NET Launch Settings Profile.PolygonApp: http.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,6 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727283606007</updated>
       <workItem from="1727283609648" duration="1254000" />
+      <workItem from="1728831194005" duration="1331000" />
     </task>
     <servers />
   </component>

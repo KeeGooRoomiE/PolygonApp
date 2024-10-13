@@ -1,45 +1,47 @@
 using Microsoft.AspNetCore.Mvc;
+using PolygonApp.Models;
+using PolygonApp.Services;
 
-[ApiController]
-[Route("api/[controller]")]
-public class PolygonController : ControllerBase
+namespace PolygonApp.Controllers
 {
-    private readonly PolygonService _polygonService;
-
-    public PolygonController(PolygonService polygonService)
+    [ApiController]
+    [Route("api/polygons")]
+    public class PolygonController : ControllerBase
     {
-        _polygonService = polygonService;
-    }
+        private readonly PolygonService _polygonService;
 
-    [HttpPost("save")]
-    public IActionResult SavePolygon([FromBody] Polygon polygon)
-    {
-        _polygonService.SavePolygon(polygon);
-        return CreatedAtAction(nameof(GetPolygonById), new { id = polygon.Id }, polygon);
-    }
-
-    [HttpPost("check-point")]
-    public IActionResult CheckPoint([FromBody] CheckPointRequest request)
-    {
-        var polygon = _polygonService.GetPolygonById(request.PolygonId);
-        if (polygon == null)
+        public PolygonController(PolygonService polygonService)
         {
-            return NotFound();
+            _polygonService = polygonService;
         }
 
-        bool isInside = _polygonService.IsPointInPolygon(request.Point, polygon);
-        return Ok(new { IsInside = isInside });
-    }
-
-    [HttpGet("{id}")]
-    public IActionResult GetPolygonById(int id)
-    {
-        var polygon = _polygonService.GetPolygonById(id);
-        if (polygon == null)
+        // Создание полигона
+        [HttpPost]
+        public IActionResult CreatePolygon([FromBody] List<Point> points)
         {
-            return NotFound();
+            var polygon = _polygonService.CreatePolygon(points);
+            return Ok(polygon);
         }
 
-        return Ok(polygon);
+        // Проверка точки в полигоне
+        [HttpPost("check-point")]
+        public IActionResult CheckPoint([FromBody] CheckPointRequest request)
+        {
+            var polygon = _polygonService.GetPolygonById(request.PolygonId);
+            if (polygon == null)
+            {
+                return NotFound();
+            }
+
+            bool isInside = _polygonService.IsPointInPolygon(request.Point, polygon);
+            return Ok(new { IsInside = isInside });
+        }
+        
+        [HttpPost("increment-counter")]
+        public IActionResult IncrementCounter()
+        {
+            var newCount = _polygonService.IncrementCounter();
+            return Ok(new { Counter = newCount });
+        }
     }
 }

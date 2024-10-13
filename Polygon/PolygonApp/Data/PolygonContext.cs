@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using PolygonApp.Models;
 
 public class PolygonContext : DbContext
 {
