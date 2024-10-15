@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aU3gOiqQoBy4xPUEBOBR3TKEBPjfRHWabBA290DT2YcO3qM1YMNkp0UglWWqRT3zuKTpmFVlxxIKZZFMUk3zLg==",
+  "dgSpecHash": "89iJwfKXhtVNrc4tg8Anj29lQQ7Jcl5elzS6n3y/6etLLDQB2XZHbOmPnsrJFkxPr4OTgE5r9WcIioFv9/NNYg==",
   "success": true,
-  "projectFilePath": "/Users/xandergusarov/Documents/GitHub/PolygonApp/PolygonApp/Polygon/PolygonApp/PolygonApp.csproj",
+  "projectFilePath": "/Users/xandergusarov/Documents/GitHub/PolygonApp/PolygonApp/PolygonApp/PolygonApp.csproj",
   "expectedPackageFiles": [
     "/Users/xandergusarov/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/xandergusarov/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
