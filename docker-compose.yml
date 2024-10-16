@@ -3,7 +3,7 @@ version: '3.8'
 services:
   frontend:
     build:
-      context: ./polygon-app
+      context: ./frontend
     ports:
       - "80:80"
     networks:
@@ -11,7 +11,7 @@ services:
 
   backend:
     build:
-      context: ./PolygonApp
+      context: ./backend
     ports:
       - "5000:5000"
     networks:
